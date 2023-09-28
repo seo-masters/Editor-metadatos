@@ -4,7 +4,7 @@ import subprocess
 import shutil
 
 # Ruta al ejecutable de ExifTool
-exiftool_path = "C:/Users/USER/Downloads/exiftool-12.67/exiftool.exe"
+exiftool_path = "./exiftool.exe"
 
 selected_image_paths = []  # Almacena las rutas de las imágenes seleccionadas
 downloaded_image_names = []  # Almacena los nombres de las imágenes descargadas
@@ -37,7 +37,7 @@ def modify_metadata():
             '-overwrite_original',  # Evita la creación de archivos de respaldo
             selected_image_path  # La imagen seleccionada
         ]
-
+ 
         try:
             subprocess.run(command, check=True)
             print(f"Metadatos modificados con éxito para: {selected_image_path}")
