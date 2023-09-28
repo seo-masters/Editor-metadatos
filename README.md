@@ -1,4 +1,4 @@
-# Documentación del Programa de Modificación de Metadatos de Imágenes
+# Editor Metadatos
 
 Este documento proporciona una descripción y documentación del código Python proporcionado. El código permite la modificación de metadatos en imágenes seleccionadas, incluyendo el asunto, etiquetas, latitud y longitud de coordenadas GPS. Además, ofrece la opción de descargar las imágenes modificadas.
 
